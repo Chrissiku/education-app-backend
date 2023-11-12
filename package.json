@@ -1,5 +1,5 @@
 {
-  "name": "educational-app-backend",
+  "name": "backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -10,20 +10,26 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.10.2",
-    "@strapi/plugin-users-permissions": "4.10.2",
-    "@strapi/provider-upload-cloudinary": "^4.10.2",
-    "@strapi/strapi": "4.10.2",
-    "mysql": "2.18.1"
+    "@react-navigation/native": "^6.1.9",
+    "@strapi/plugin-cloud": "4.15.2",
+    "@strapi/plugin-i18n": "4.15.2",
+    "@strapi/plugin-users-permissions": "4.15.2",
+    "@strapi/provider-upload-cloudinary": "^4.15.2",
+    "@strapi/strapi": "4.15.2",
+    "pg": "8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "1b8e1341-bff4-4082-9884-67acce1d315d"
+    "uuid": "3406ddbb-8d9f-4802-9192-3205a78e23a5"
   },
   "engines": {
-    "node": "16.13.x",
+    "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
